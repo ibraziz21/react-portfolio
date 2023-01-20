@@ -18,3 +18,17 @@
     overflow: hidden;
     color: var(--black);    
 }
+button{
+  border-radius: 30px;
+  border: none;
+  color: azure;
+  font-size: 16px;
+  padding: 10px;
+  background: #242D49;
+}
+button:hover{
+  background: azure;
+  color: #242D49;
+  border: 1px solid;
+  border-color: #242D49;
+}
