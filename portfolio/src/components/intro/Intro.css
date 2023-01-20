@@ -1,0 +1,38 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+.i-left{
+    display: flex;
+    flex: 1;
+    position: relative;
+    flex-direction: column;
+}
+.i-name{
+    flex-direction: column;
+    display: flex;
+}
+.i-name>:nth-child(1){
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.i-name>:nth-child(2){
+    color: #242D49;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.i-name>:nth-child(3){
+    font-weight: 200;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+.i-button{
+
+}
+.i-right{
+    flex: 1;
+}
